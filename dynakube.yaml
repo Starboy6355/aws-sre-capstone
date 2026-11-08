@@ -1,0 +1,9 @@
+apiVersion: dynatrace.com/v1beta5
+kind: DynaKube
+metadata:
+  name: dynakube
+  namespace: dynatrace
+spec:
+  apiUrl: https://mmw71207.live.dynatrace.com/api
+  oneAgent:
+    classicFullStack: {}
